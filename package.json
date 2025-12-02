@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "onboarding": "node ./scripts/onboarding/index.js"
   },
   "engines": {
     "node": ">=20"
