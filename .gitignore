@@ -5,3 +5,6 @@
 dist
 .aio
 .env
+
+# node
+node_modules
