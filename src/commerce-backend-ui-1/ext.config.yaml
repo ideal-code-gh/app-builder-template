@@ -1,0 +1,14 @@
+operations:
+  view:
+    - type: web
+      impl: index.html
+runtimeManifest:
+  packages:
+    admin-ui-sdk:
+      actions:
+        registration:
+          function: actions/registration/index.js
+          runtime: nodejs:20
+          web: yes
+          annotations:
+            require-adobe-auth: true

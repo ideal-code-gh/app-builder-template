@@ -7,6 +7,7 @@ export default defineConfig([
   globalIgnores([
     'dist/'
   ]),
+  pluginReact.configs.flat.recommended,
   {
     files: ['**/*.{js,jsx}'],
     plugins: { js },
@@ -18,7 +19,9 @@ export default defineConfig([
       react: {
         version: 'detect'
       }
+    },
+    rules: {
+      'react/react-in-jsx-scope': 'off'
     }
-  },
-  pluginReact.configs.flat.recommended
+  }
 ])

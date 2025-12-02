@@ -1,0 +1,27 @@
+export const main = () => {
+  const extensionId = 'my_awesome_app'
+
+  return {
+    statusCode: 200,
+    body: {
+      registration: {
+        menuItems: [
+          {
+            id: `${extensionId}::container`,
+            title: 'My Awesome App',
+            parent: 'Magento_Backend::content',
+            isSection: true
+          },
+          {
+            id: `${extensionId}::page`,
+            title: 'Page',
+            parent: `${extensionId}::container`
+          }
+        ],
+        page: {
+          title: 'My Awesome App'
+        }
+      }
+    }
+  }
+}

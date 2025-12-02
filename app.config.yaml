@@ -1,3 +1,7 @@
+extensions:
+  commerce/backend-ui/1:
+    $include: src/commerce-backend-ui-1/ext.config.yaml
+
 application:
   runtimeManifest:
     packages:

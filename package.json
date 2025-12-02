@@ -13,7 +13,10 @@
     "node": ">=20"
   },
   "dependencies": {
-    "react": "^19.2.0"
+    "@adobe/react-spectrum": "^3.45.0",
+    "@adobe/uix-guest": "^1.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
