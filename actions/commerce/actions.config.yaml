@@ -1,0 +1,4 @@
+generic:
+  function: generic/index.js
+  runtime: nodejs:20
+  web: yes

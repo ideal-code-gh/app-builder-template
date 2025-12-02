@@ -1,0 +1,6 @@
+application:
+  runtimeManifest:
+    packages:
+      commerce:
+        actions:
+          $include: actions/commerce/actions.config.yaml
