@@ -1,3 +1,9 @@
+/**
+ * Runtime action for providing registrations for Admin UI SDK.
+ *
+ * @see https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/app-registration
+ */
+
 export const main = () => {
   const extensionId = 'my_awesome_app'
 

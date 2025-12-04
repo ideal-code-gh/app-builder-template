@@ -1,7 +1,8 @@
 /**
- * Extremely simple example of runtime action, which
- * can be used to call external APIs, receiving events
- * from Adobe Commerce or anything else.
+ * Simple example of runtime action, which can be used to call external APIs,
+ * receiving events from Adobe Commerce or for any other purpose.
+ *
+ * @see https://developer.adobe.com/app-builder/docs/guides/runtime_guides/using-runtime
  */
 
 // eslint-disable-next-line no-unused-vars
